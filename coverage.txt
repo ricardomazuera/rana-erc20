@@ -1,0 +1,137 @@
+Compiling 32 files with Solc 0.8.24
+Solc 0.8.24 finished in 9.40s
+Compiler run successful!
+Analysing contracts...
+Running tests...
+
+Ran 2 tests for test/unit/RanaTokenTest.t.sol:RanaTokenTest
+[PASS] testAllowances() (gas: 79421)
+[PASS] testBobBalance() (gas: 15825)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 29.12ms (1.78ms CPU time)
+
+Ran 1 test suite in 1.84s (29.12ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+Uncovered for script/DeployRanaToken.s.sol:
+
+Uncovered for src/RanaToken.sol:
+
+Anchors for Contract "StdUtils" (solc 0.8.24, source ID 12):
+
+Anchors for Contract "TestBase" (solc 0.8.24, source ID 0):
+
+Anchors for Contract "RanaTokenTest" (solc 0.8.24, source ID 31):
+
+Anchors for Contract "StdChains" (solc 0.8.24, source ID 3):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.24, source ID 9):
+
+Anchors for Contract "IERC721Enumerable" (solc 0.8.24, source ID 19):
+
+Anchors for Contract "StdInvariant" (solc 0.8.24, source ID 6):
+
+Anchors for Contract "StdAssertions" (solc 0.8.24, source ID 2):
+
+Anchors for Contract "CommonBase" (solc 0.8.24, source ID 0):
+
+Anchors for Contract "IERC721Metadata" (solc 0.8.24, source ID 19):
+
+Anchors for Contract "Script" (solc 0.8.24, source ID 1):
+
+Anchors for Contract "IERC721" (solc 0.8.24, source ID 19):
+
+Anchors for Contract "StdStyle" (solc 0.8.24, source ID 10):
+
+Anchors for Contract "ERC20" (solc 0.8.24, source ID 25):
+
+Anchors for Contract "IMulticall3" (solc 0.8.24, source ID 20):
+
+Anchors for Contract "Vm" (solc 0.8.24, source ID 14):
+
+Anchors for Contract "stdError" (solc 0.8.24, source ID 5):
+
+Anchors for Contract "stdJson" (solc 0.8.24, source ID 7):
+
+Anchors for Contract "stdMath" (solc 0.8.24, source ID 8):
+
+Anchors for Contract "IERC1155Errors" (solc 0.8.24, source ID 24):
+
+Anchors for Contract "MockERC721" (solc 0.8.24, source ID 22):
+
+Anchors for Contract "MockERC20" (solc 0.8.24, source ID 21):
+
+Anchors for Contract "IERC20" (solc 0.8.24, source ID 26):
+
+Anchors for Contract "stdToml" (solc 0.8.24, source ID 11):
+
+Anchors for Contract "StdCheats" (solc 0.8.24, source ID 4):
+
+Anchors for Contract "IERC20Errors" (solc 0.8.24, source ID 24):
+
+Anchors for Contract "IERC721TokenReceiver" (solc 0.8.24, source ID 19):
+
+Anchors for Contract "Context" (solc 0.8.24, source ID 28):
+
+Anchors for Contract "ScriptBase" (solc 0.8.24, source ID 0):
+
+Anchors for Contract "StdCheatsSafe" (solc 0.8.24, source ID 4):
+
+Anchors for Contract "IERC165" (solc 0.8.24, source ID 17):
+
+Anchors for Contract "VmSafe" (solc 0.8.24, source ID 14):
+
+Anchors for Contract "stdStorage" (solc 0.8.24, source ID 9):
+
+Anchors for Contract "RanaToken" (solc 0.8.24, source ID 30):
+- IC 5 -> Item 0
+- Runtime code
+  - Refers to item: Function "" (location: source ID 30, line 7, chars 162-268, hits: 2)
+- IC 202 -> Item 1
+- Runtime code
+  - Refers to item: Line (location: source ID 30, line 8, chars 229-261, hits: 2)
+- IC 202 -> Item 2
+- Runtime code
+  - Refers to item: Statement (location: source ID 30, line 8, chars 229-261, hits: 2)
+
+Anchors for Contract "IERC20" (solc 0.8.24, source ID 18):
+
+Anchors for Contract "Test" (solc 0.8.24, source ID 13):
+
+Anchors for Contract "safeconsole" (solc 0.8.24, source ID 23):
+
+Anchors for Contract "console" (solc 0.8.24, source ID 15):
+
+Anchors for Contract "IERC20Metadata" (solc 0.8.24, source ID 27):
+
+Anchors for Contract "DeployRanaToken" (solc 0.8.24, source ID 29):
+- IC 109 -> Item 3
+- Creation code
+  - Refers to item: Function "run" (location: source ID 29, line 10, chars 239-420, hits: 2)
+- IC 222 -> Item 4
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 11, chars 293-312, hits: 2)
+- IC 222 -> Item 5
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 11, chars 293-312, hits: 2)
+- IC 319 -> Item 6
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 12, chars 322-366, hits: 2)
+- IC 319 -> Item 7
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 12, chars 322-366, hits: 2)
+- IC 321 -> Item 8
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 12, chars 337-366, hits: 2)
+- IC 418 -> Item 9
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 13, chars 376-394, hits: 2)
+- IC 418 -> Item 10
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 13, chars 376-394, hits: 2)
+- IC 515 -> Item 11
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 14, chars 404-413, hits: 2)
+- IC 515 -> Item 12
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 14, chars 404-413, hits: 2)
+
+Anchors for Contract "IERC721Errors" (solc 0.8.24, source ID 24):
+
